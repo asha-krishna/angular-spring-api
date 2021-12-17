@@ -6,20 +6,22 @@
 4. Start Angular application. Open URL http://localhost:4200/
 5. We can see employee-list
 
-      ![img.png](img.png)
+      ![image](https://user-images.githubusercontent.com/73759012/146611941-ad4ce3fe-6016-4ee6-9d0d-7955d73a3e86.png)
 
 6. Add New Employee
 
-     ![img_1.png](img_1.png)
+     ![image](https://user-images.githubusercontent.com/73759012/146612025-8f12f3d7-3c45-429f-8523-d214adc96489.png)
+
 
 7. Once new Employee is added we can that in the getEmployees list
      
-     ![img_2.png](img_2.png)
+     ![image](https://user-images.githubusercontent.com/73759012/146612084-31893aff-6075-4a12-83f2-21e3cef456c6.png)
 
 8. We can update employee
     
-     ![img_3.png](img_3.png)
+     ![image](https://user-images.githubusercontent.com/73759012/146612119-05e2243f-118e-4357-9672-95d9c8435d88.png)
 
 9. Delete employee as well
 
-    ![img_4.png](img_4.png)
+    ![image](https://user-images.githubusercontent.com/73759012/146612165-8f6772f5-522d-4caa-a246-65cc889e0e96.png)
+
