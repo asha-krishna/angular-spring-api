@@ -1,0 +1,30 @@
+<div class="col-md-6 offset-md-3">
+    <h3>Update Employee</h3>
+    
+    <form (ngSubmit) = "onUpdateEmployee()">
+    
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" [(ngModel)]="employee.name" class="form-control" name="name" id="name">
+          </div> <br>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" [(ngModel)]="employee.email" class="form-control" name="email" id="email">
+          </div> <br>
+          <div class="form-group">
+            <label for="job">Job Title</label>
+            <input type="text" [(ngModel)]="employee.jobTitle" class="form-control" name="jobTitle" id="jobTitle">
+          </div> <br>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" [(ngModel)]="employee.phone" class="form-control" name="phone" id="phone">
+          </div> <br>
+          <div class="form-group">
+            <label for="image">Image URL</label>
+            <input type="text" [(ngModel)]="employee.imageUrl" class="form-control" name="imageUrl" id="imageUrl">
+          </div> <br>
+    
+          <button class="btn btn-primary" type="submit">Update</button>
+          
+    </form>
+    </div>

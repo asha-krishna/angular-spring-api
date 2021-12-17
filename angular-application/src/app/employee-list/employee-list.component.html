@@ -1,0 +1,27 @@
+<table class="table table-bordered table-hover table-condensed table-sm table-stripped">
+    <tr bgColor="#B79B9B">
+        <th class="text-center">Id</th>
+        <th class="text-center">Name</th>
+        <th class="text-center">Email</th>
+        <th class="text-center">Job Title</th>
+        <th class="text-center">Phone Num</th>
+        <th class="text-center">Emp_Code</th>
+        <th class="text-center">Image</th>
+        <th class="text-center">Actions</th>
+      </tr>
+    <tbody>
+        <tr *ngFor = "let emp of employees">  <!-- "employees" must be declared in the employee-list.component.ts-->
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.jobTitle}}</td>
+            <td>{{emp.phone}}</td>
+            <td>{{emp.empCode}}</td>
+            <td><img src='{{emp.imageUrl}}' widthe="30" height="30"/></td>
+            <td>
+                <button (click) = "updateEmployee(emp.id)" class="btn btn-warning"> Update</button>
+                <button (click) = "deleteEmployee(emp.id)" class="btn btn-danger" style="margin-left: 10px"> Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

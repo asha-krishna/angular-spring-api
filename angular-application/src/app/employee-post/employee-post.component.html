@@ -1,0 +1,30 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Add Employee</h3>
+  
+  <form (ngSubmit) = "onSubmitEmployee()" >
+  
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" [(ngModel)]="employee.name" class="form-control" name="name" id="name" placeholder="Name" required>
+        </div> <br>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" [(ngModel)]="employee.email" class="form-control" name="email" id="email" placeholder="Email Id" required>
+        </div> <br>
+        <div class="form-group">
+          <label for="job">Job Title</label>
+          <input type="text" [(ngModel)]="employee.jobTitle" class="form-control" name="jobTitle" id="jobTitle" placeholder="Job Title" required>
+        </div> <br>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" [(ngModel)]="employee.phone" class="form-control" name="phone" id="phone" placeholder="Phone Num" required>
+        </div> <br>
+        <div class="form-group">
+          <label for="image">Image URL</label>
+          <input type="text" [(ngModel)]="employee.imageUrl" class="form-control" name="imageUrl" id="imageUrl" placeholder="Image URL" required>
+        </div> <br>
+  
+        <button class="btn btn-success" type="submit">Submit</button>
+        
+  </form>
+  </div>
